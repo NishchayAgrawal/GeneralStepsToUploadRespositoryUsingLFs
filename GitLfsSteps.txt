@@ -1,0 +1,33 @@
+
+
+A)  Follow these steps to upload your  repositoy to Github ------>
+1) open the git bash in the directory where your files of the project resides---
+2) git init
+
+3) git add . // adding all the files in the curent directory
+
+4) git commit -m "Add all my files"  // commitment
+
+5) git remote add origin   https://github.com/yourusername/repository_nameof_githubprofile
+
+6) git push -u origin master
+
+7) git status
+
+If any problem occurs in pushing use git push -u -f origin master
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+B) Uploading Large file system to github , we use github LFS--->
+First download the git lfs in your pc
+open git bash  where large files resides in the directory
+git init
+git lfs track "large_file_name"
+git add .
+git commit -m "adding all large dataset files to the hub repository"
+git status
+git remote add  origin  url_of_remote_github_repository
+git push -u origin master
+git status
